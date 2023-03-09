@@ -6,96 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="src/style.css">
 </head>
-<style>
-    body {
 
-
-        background-color: black;
-        color: white
-    }
-
-    .container {
-        display: block;
-        margin: 0 auto;
-        max-width: 800px;
-        background-color: rgb(54, 52, 52);
-        border-radius: 8px;
-        padding: 10px;
-    }
-
-    button {
-        display: block;
-        padding: 5px 10px;
-        border-radius: 8px;
-        margin: 0 auto;
-        border: 1px solid white;
-
-    }
-
-    button:hover {
-        background-color: rgb(54, 52, 52);
-        color: white;
-    }
-
-    h1 {
-        text-align: center;
-        font-size: 96px;
-        margin: 10px;
-    }
-
-    h2 {
-        text-align: center;
-        font-weight: 100;
-    }
-
-    img {
-        border-radius: 8px;
-        max-width: 100%;
-        transition: all 150ms ease-in-out;
-    }
-
-    img:hover {
-        transform: scale(1.1);
-    }
-
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(2, 395px);
-        grid-gap: 10px;
-    }
-
-    footer {
-        text-align: center;
-    }
-
-    a {
-        text-decoration: none;
-        color: white;
-    }
-
-    .light {
-        background-color: white;
-    }
-
-    .light .container {
-        background-color: white;
-        color: rgb(54, 52, 52);
-    }
-
-    .light footer {
-        color: rgb(54, 52, 52);
-    }
-
-    .light a {
-        color: rgb(54, 52, 52);
-    }
-</style>
 
 <body>
     <button>Light Mode</button>
     <div class="container">
-        <h1>EMMA SALISBURY PHOTOGRAPHY</h1>
+        <div class="hero">
+            <div class="hero-image">
+                <div class="hero-text">
+                    <h1>EMMA SALISBURY PHOTOGRAPHY</h1>
+                </div>
+            </div>
+        </div>
+        <h1></h1>
         <h2>A practise in being present.</h2>
         <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/068/199/original/DSC03362.jpg?1676806506"
             class="main" />
@@ -110,13 +35,7 @@
     </div>
     <footer>This site was coded by <a href="">Emma Salisbury</a></footer>
 </body>
-<script>
-    function showLight() {
-        let body = document.querySelector("body");
-        body.classList.add("light");
-    }
-    let button = document.querySelector("button");
-    button.addEventListener("click", showLight);
+<script src="src/script.js"></script>
 </script>
 
 </html>

@@ -1,0 +1,91 @@
+ body {
+
+
+     background-color: black;
+     color: white
+ }
+
+ .hero-image {
+     background-image: url("src/hero-image.jpg");
+     padding: 100px 0px;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+ }
+
+ .container {
+     display: block;
+     margin: 0 auto;
+     max-width: 1000px;
+     background-color: rgb(54, 52, 52);
+     border-radius: 8px;
+     padding: 10px;
+ }
+
+ button {
+     display: block;
+     padding: 5px 10px;
+     border-radius: 8px;
+     margin: 0 auto;
+     border: 1px solid white;
+
+ }
+
+ button:hover {
+     background-color: rgb(54, 52, 52);
+     color: white;
+ }
+
+ h1 {
+     text-align: center;
+     font-size: 96px;
+     margin: 10px;
+ }
+
+ h2 {
+     text-align: center;
+     font-weight: 100;
+ }
+
+ img {
+     border-radius: 8px;
+     max-width: 100%;
+     transition: all 150ms ease-in-out;
+ }
+
+ img:hover {
+     transform: scale(1.1);
+ }
+
+ .grid {
+     display: grid;
+     grid-template-columns: repeat(2, 495px);
+     grid-gap: 10px;
+ }
+
+ footer {
+     text-align: center;
+ }
+
+ a {
+     text-decoration: none;
+     color: white;
+ }
+
+ .light {
+     background-color: white;
+ }
+
+ .light .container {
+     background-color: white;
+     color: rgb(54, 52, 52);
+ }
+
+ .light footer {
+     color: rgb(54, 52, 52);
+ }
+
+ .light a {
+     color: rgb(54, 52, 52);
+ }
