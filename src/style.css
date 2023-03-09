@@ -1,19 +1,21 @@
  body {
-
-
      background-color: black;
      color: white
  }
 
  .hero-image {
-     background-image: url("src/hero-image.jpg");
+     background-image: url("hero-image.jpg");
+     border-radius: 8px;
      padding: 100px 0px;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
      position: relative;
  }
-
+.hero-text {
+    text-align: center;
+    
+}
  .container {
      display: block;
      margin: 0 auto;
@@ -46,6 +48,9 @@
  h2 {
      text-align: center;
      font-weight: 100;
+     font-size: 45px;
+     margin-top: 15px;
+     margin-bottom: 15px;
  }
 
  img {
@@ -60,7 +65,7 @@
 
  .grid {
      display: grid;
-     grid-template-columns: repeat(2, 495px);
+     grid-template-columns: repeat(2, 49%);
      grid-gap: 10px;
  }
 
@@ -88,4 +93,25 @@
 
  .light a {
      color: rgb(54, 52, 52);
+ }
+
+ @media (max-width: 820px) {
+    .hero-text h1 {
+        font-size: 70px;
+    }
+    .container h2 {
+        font-size: 30px;
+    }
+ }
+
+ @media (max-width: 615px) {
+     .hero-text h1 {
+         font-size: 55px;
+     }
+ }
+
+ @media (max-width: 490px) {
+     .hero-text h1 {
+         font-size: 40px;
+     }
  }
