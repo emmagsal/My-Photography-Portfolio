@@ -86,7 +86,9 @@
      background-color: white;
      color: rgb(54, 52, 52);
  }
-
+.light .container .hero .hero-image .hero-text h1 {
+    color: white;
+}
  .light footer {
      color: rgb(54, 52, 52);
  }
