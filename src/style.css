@@ -68,11 +68,22 @@
      grid-template-columns: repeat(2, 49%);
      grid-gap: 10px;
  }
+ .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-gap: 10px;
+ }
 
  footer {
      text-align: center;
+     padding-top: 40px;
  }
-
+.email-link {
+    font-size: 45px;
+}
+.instagram-link {
+    font-size: 45px;
+}
  a {
      text-decoration: none;
      color: white;
