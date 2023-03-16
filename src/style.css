@@ -78,11 +78,12 @@
      text-align: center;
      padding-top: 40px;
  }
-.email-link {
+ .github-link, .email-link, .instagram-link {
     font-size: 45px;
-}
-.instagram-link {
-    font-size: 45px;
+    padding: 15px;
+ }
+.portfolio-link {
+    font-size: 25px;
 }
  a {
      text-decoration: none;
