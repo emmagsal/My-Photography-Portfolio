@@ -1,12 +1,13 @@
  body {
      background-color: black;
-     color: white
+     color: white;
+    font-family: 'DM Serif Display', serif;
  }
 
  .hero-image {
      background-image: url("hero-image.jpg");
      border-radius: 8px;
-     padding: 100px 0px;
+     padding: 120px 0px;
      background-position: center;
      background-repeat: no-repeat;
      background-size: cover;
@@ -60,18 +61,21 @@
  }
 
  img:hover {
-     transform: scale(1.1);
+     transform: scale(1.2);
  }
 
  .grid {
      display: grid;
-     grid-template-columns: repeat(2, 49%);
+     grid-template-columns: 1fr 1fr;
      grid-gap: 10px;
+     margin: 0 0 10px 0;
+     
  }
  .grid-3 {
     display: grid;
-    grid-template-columns: repeat(3, 32%);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
+    
  }
 
  footer {
