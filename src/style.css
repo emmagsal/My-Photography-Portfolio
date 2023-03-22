@@ -58,6 +58,7 @@
      border-radius: 8px;
      max-width: 100%;
      transition: all 150ms ease-in-out;
+     margin: 0 auto;
  }
 
  img:hover {
