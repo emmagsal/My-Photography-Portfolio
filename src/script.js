@@ -3,21 +3,19 @@
   function darkMode() {
     let body = document.querySelector("body");
     body.classList.remove("light");
-    let button = document.querySelector("button");
-    button.innerHTML = "Light Mode";
-    button.addEventListener("click", showLight);
+    l
 
   }
  
-  
+ let darkButton = document.querySelector("#dark-mode");
+    darkButton.addEventListener("click", darkMode);
+
   function showLight() {
         let body = document.querySelector("body");
         body.classList.add("light");
-        let button = document.querySelector("button");
-        button.innerHTML = "Dark Mode";
-        button.addEventListener("click", darkMode);
+        
         
       
     }
-    let button = document.querySelector("button");
-    button.addEventListener("click", showLight);
+    let lightButton = document.querySelector("#light-mode");
+    lightButton.addEventListener("click", showLight);
